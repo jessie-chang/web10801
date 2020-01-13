@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/mycss.css" />
+    <title>共享機車</title>
+  </head>
+  <body>
+    <div class="container-fluid" style="background-color:beige;min-height: 1050px;width:100vw;background-image:url('./img/asset/bg.png');">
+        <img id="b1" src="./img/asset/irent.png" style="left:1180px;top:260px">
+        <img id="b2" src="./img/asset/wemo.png" style="left:1200px;top:260px;">
+        <img id="b3" src="./img/asset/goshare.png" style="left:1225px;top:260px;">
+
+        <img id="b0" src="./img/asset/word.png" style="left:-200px;top:800px;">
+    </div>
+
+    <section
+      class="index text-center vh-100 d-flex justify-content-center align-items-center"
+    >
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 text-white">
+            <h1 class="black-shadow" style="font-size: 60px">開箱共享機車</h1>
+          </div>
+        </div>
+        <div class="row moto">
+          <button class="col-4" onClick="motoClick(this, 'wemo')" />
+          <button class="col-4" onClick="motoClick(this, 'irent')"/>
+          <button class="col-4" onClick="motoClick(this, 'goshare')"/>
+        </div>
+        <div class="arrow-down"></div>
+      </div>
+    </section>
+    <main class="d-none">
+      <div class="road">
+        <img />
+      </div>
+      <section
+        class="condition carousel slide"
+        id="condtion1"
+        data-ride="carousel"
+        
+      >
+        <div class="carousel-inner">
+          <div class="bg-success carousel-item active">
+            <img src="https://via.placeholder.com/1380x925" />
+            <div
+              class="carousel-caption"
+              data-aos="fade-right"
+              data-aos-duration="6000"
+            >
+              <h1>123</h1>
+            </div>
+          </div>
+          <div class="bg-warning carousel-item">
+            <img src="https://via.placeholder.com/1380x915" />
+            <div class="carousel-caption" data-aos="fade-right">
+              <h1>456</h1>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#condtion1"
+          role="button"
+          data-slide="prev"
+        >
+          <div class="carousel-control-prev-icon"></div>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#condtion1"
+          role="button"
+          data-slide="next"
+        >
+          <div class="carousel-control-next-icon"></div>
+        </a>
+      </section>
+      <div class="road"><img /></div>
+      <section
+        class="condition carousel slide"
+        id="condtion2"
+        data-ride="carousel"
+        
+      >
+        <div class="carousel-inner">
+          <div class="bg-success carousel-item active">
+            <img src="" />
+            <div
+              class="carousel-caption"
+              data-aos="fade-right"
+              data-aos-duration="6000"
+            >
+              <h1>123</h1>
+            </div>
+          </div>
+          <div class="bg-warning carousel-item">
+            <img src="https://via.placeholder.com/1380x915" />
+            <div class="carousel-caption" data-aos="fade-right">
+              <h1>456</h1>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#condtion2"
+          role="button"
+          data-slide="prev"
+        >
+          <div class="carousel-control-prev-icon"></div>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#condtion2"
+          role="button"
+          data-slide="next"
+        >
+          <div class="carousel-control-next-icon"></div>
+        </a>
+      </section>
+      <div class="road"><img /></div>
+      
+      <!--Map-->
+      <div class="map vh-100 w-100" style="position: relative">
+        <h1 class=""></h1>
+        <iframe src="" width="100%" height="100%" frameborder="0" style="text-align: right"></iframe>
+      </div>
+      
+      <div class="road"><img /></div>
+    </main>
+    <img
+      class="d-none"
+      src="img/compare.png"
+      style="padding: 25px 15px; height: 100vh; width: 100vw"
+    />
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="./js/myjs.js"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+path {
+    cursor: pointer;
+    stroke: rgba(0, 0, 0, 0.5);
+    stroke-width: 1;
+}
+body{
+    background: none;
+}
+/*
+path:hover{
+    stroke: rgba(1, 0, 0, 0.8);
+    opacity: 0.1;
+}
+*/
+
+#map_container {
+    position: fixed;
+    width: 100%;
+    margin-left:-30%;
+    z-index:-5;
+}
+
+#story {
+    /* background-color: rgba(200, 200, 200, 0.5); */
+}
+
+#story div {
+    min-height: 1000px;
+    color: white;
+    text-shadow: black  0px 0px 6px;
+    font-size: 40px;
+}
+
