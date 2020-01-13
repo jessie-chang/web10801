@@ -93,7 +93,7 @@ const DataTable = {
     "./img/wemo/wemo1.png",
     {
       name: "wemo1",
-      src: ["./img/wemo/wemo2.png", "./img/wemo/wemo2-1.png"],
+      src: ["./img/wemo/wemo2.png", "./img/wemo/wemo2-1.PNG"],
       txt: [
         "騎了50分鐘，機車漸漸沒電，只好……",
         "WeMo有後勤維護團隊會負責更換電池，<br> 使用者無需自己充電或更換電池喔！<br>若不幸遇到沒電，會開始限制騎乘速度，<br>請再次評估行程，並盡快準備還車；<br>若騎乘機車完全沒電時，直接聯繫客服<br>(點選APP畫面上的Call WeMo)，就會有專人協助處理囉！"
@@ -102,7 +102,7 @@ const DataTable = {
     "./img/wemo/wemo3.png",
     {
       name: "wemo2",
-      src: ["./img/wemo/wemo4.png", "./img/wemo/wemo4-1.png"],
+      src: ["./img/wemo/wemo4.PNG", "./img/wemo/wemo4-1.PNG"],
       txt: [
         "50分鐘後到達目的地了！此時要付多少錢呢？",
         "前 6 分鐘 15 元，第 7 分鐘開始 2.5元/分鐘\n所以你要付：15+44*2.5=110 元！"
@@ -110,7 +110,7 @@ const DataTable = {
     },
     "./img/wemo/wemo5.png",
     {
-      bg: "./img/wemo/wemo6.png",
+      bg: "./img/wemo/wemo6.PNG",
       txt: "下車！但…該去哪裡還車呢？",
       map: "./map/wemo.htm"
     },
@@ -120,7 +120,7 @@ const DataTable = {
     "./img/irent/irent1.png",
     {
       name: "irent1",
-      src: ["./img/irent/irent2.png", "./img/irent/irent2-1.png"],
+      src: ["./img/irent/irent2.png", "./img/irent/irent2-1.PNG"],
       txt: [
         "騎了50分鐘，機車漸漸沒電，只好……",
         "按下主頁面的『電池服務』並選取『能源站導航』<br>系統就會導航至最靠近你的能源站囉！"
@@ -129,7 +129,7 @@ const DataTable = {
     "./img/irent/irent3.png",
     {
       name: "irent2",
-      src: ["./img/irent/irent4.png", "./img/irent/irent4-1.png"],
+      src: ["./img/irent/irent4.PNG", "./img/irent/irent4-1.png"],
       txt: [
         "50分鐘後到達目的地了！此時要付多少錢呢？",
         "前 10 分鐘 20 元，之後每分鐘 1 元\n所以你要付：20+40=60 元！"
@@ -156,7 +156,7 @@ const DataTable = {
     "./img/goshare/goshare3.png",
     {
       name: "goshare2",
-      src: ["./img/goshare/goshare4.png", "./img/goshare/goshare4-1.png"],
+      src: ["./img/goshare/goshare4.PNG", "./img/goshare/goshare4-1.PNG"],
       txt: [
         "50分鐘後到達目的地了！此時要付多少錢呢？",
         "依照車款不同，費率也有所不同喔!<br>GOGORO VIVA 前6分鐘15元，之後每後分鐘2.5元<br>所以若是騎乘50分鐘，即為6*15+44*2.5=200元<br>GOGORO2 前6分鐘25元，之後每分鐘2.5元<br>所以若是騎乘50分鐘，即為6*25+44*2.5=<span class='text-primary'>260</span>元！"
